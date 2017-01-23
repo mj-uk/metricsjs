@@ -1,4 +1,4 @@
-﻿etrics = {
+metrics = {
 };
 
 metrics.create = function (options) {
