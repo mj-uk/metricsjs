@@ -1,6 +1,9 @@
 # metricsjs
 
+A simple javascript metrics library.
+
 Examples
+```javascript
   var log = function (x) { console.log(JSON.stringify(x)); };
 
   /* counter */
@@ -29,3 +32,4 @@ Examples
     t1.stop();
   }
   log(timer.read());                  // {"value":54,"mean":60.49,"median":57,"p75":60,"p90":67,"p95":90,"p99":106}
+```
